@@ -60,12 +60,12 @@
 
   <footer>
     <p>Terra dos Bichos</p>
-    <input type="checkbox" id="modal-toggle" class="modal-toggle">
-    <label for="modal-toggle" class="btn">Sobre o projeto</label>
+    <input type="checkbox" id="modal-toggle" class="modal-toggle" aria-hidden="true">
+    <label for="modal-toggle" class="btn" role="button" aria-label="Abrir informações sobre o projeto" tabindex="0">Sobre o projeto</label>
     <div class="modal-overlay">
       <label for="modal-toggle" class="modal-close-bg"></label>
       <div class="modal-box">
-        <label for="modal-toggle" class="modal-close">×</label>
+      <label for="modal-toggle" class="modal-close" role="button" aria-label="Fechar modal" tabindex="0">✕</label>
         <h3>Sobre o projeto</h3>
         <p>O Terra dos Bichos é um projeto fictício criado para fins acadêmicos, simulando uma ONG de proteção animal.</p>
       </div>
