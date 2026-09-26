@@ -433,4 +433,11 @@ body::after {
   10% { opacity: 1; transform: translateY(0); }
   85% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(20px); }
+
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-white: #121212;
+    --color-neutral-dark: #f2f2f2;
+  }
 }
