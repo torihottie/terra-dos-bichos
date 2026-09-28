@@ -1,7 +1,9 @@
+import animais from '../assets/animais.webp';
+
 export function viewHome() {
   return `
     <section id="hero">
-      <img src="/assets/animais.webp" alt="Imagem ilustrativa de cães e gatos" class="banner-img">
+      <img src="${animais}" alt="Imagem ilustrativa de cães e gatos" class="banner-img">
       <h2>Sobre a ONG</h2>
       <p>A Terra dos Bichos é uma organização sem fins lucrativos dedicada a resgatar, cuidar e encontrar novos lares para cães e gatos em situação de abandono.</p>
     </section>
