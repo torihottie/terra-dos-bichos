@@ -1,3 +1,4 @@
+import animais from '../assets/animais.webp';
 export function viewHome() {
   return `
     <section id="hero">
