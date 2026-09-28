@@ -1,3 +1,7 @@
+import { carregarSweetAlert } from './storage.js';
+import { viewHome, viewProjetos, viewCadastro, view404 } from './views.js';
+import { initCadastroForm } from './cadastro.js';
+
 const app = document.getElementById('app');
 
 const routes = {

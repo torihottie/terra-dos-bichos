@@ -1,14 +1,14 @@
 const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function validarNome(valor) {
+export function validarNome(valor) {
   return valor.trim().length >= 3;
 }
 
-function validarEmail(valor) {
+export function validarEmail(valor) {
   return regexEmail.test(valor.trim());
 }
 
-function marcarCampo(input, erroSpan, valido, mensagemErro) {
+export function marcarCampo(input, erroSpan, valido, mensagemErro) {
   if (valido) {
     input.style.borderColor = '';
     erroSpan.textContent = '';

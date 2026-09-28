@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terra dos Bichos - Início</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Terra dos Bichos</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -14,17 +14,17 @@
     <label for="menu-toggle" class="hamburger-icon">☰</label>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="#/">Início</a></li>
+        <li><a href="#/projetos">Projetos</a></li>
+        <li><a href="#/cadastro">Cadastro</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main id="app">
 
     <section id="hero">
-      <img src="animais.webp" alt="Imagem ilustrativa de cães e gatos" class="banner-img">
+      <img src="assets/animais.webp" alt="Imagem ilustrativa de cães e gatos" class="banner-img">
       <h2>Sobre a ONG</h2>
       <p>A Terra dos Bichos é uma organização sem fins lucrativos dedicada a resgatar, cuidar e encontrar novos lares para cães e gatos em situação de abandono.</p>
     </section>
@@ -53,7 +53,7 @@
 
     <section id="chamada">
       <h2>Faça Parte</h2>
-      <p>Conheça nossos <a href="projetos.html">projetos</a> ou <a href="cadastro.html">cadastre-se como voluntário</a> e ajude a transformar a vida de muitos animais.</p>
+      <p>Conheça nossos <a href="#/projetos">projetos</a> ou <a href="#/cadastro">cadastre-se como voluntário</a> e ajude a transformar a vida de muitos animais.</p>
     </section>
 
   </main>
@@ -65,12 +65,13 @@
     <div class="modal-overlay">
       <label for="modal-toggle" class="modal-close-bg"></label>
       <div class="modal-box">
-      <label for="modal-toggle" class="modal-close" role="button" aria-label="Fechar modal" tabindex="0">✕</label>
+        <label for="modal-toggle" class="modal-close" role="button" aria-label="Fechar modal" tabindex="0">✕</label>
         <h3>Sobre o projeto</h3>
         <p>O Terra dos Bichos é um projeto fictício criado para fins acadêmicos, simulando uma ONG de proteção animal.</p>
       </div>
     </div>
   </footer>
 
+  <script type="module" src="js/router.js"></script>
 </body>
 </html>

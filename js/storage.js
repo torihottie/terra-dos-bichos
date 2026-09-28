@@ -1,4 +1,4 @@
-function carregarSweetAlert() {
+export function carregarSweetAlert() {
   if (window.Swal) return;
 
   const script = document.createElement('script');
@@ -6,12 +6,12 @@ function carregarSweetAlert() {
   document.head.appendChild(script);
 }
 
-function listarVoluntarios() {
+export function listarVoluntarios() {
   return JSON.parse(localStorage.getItem('voluntarios') || '[]');
 }
 
-function salvarVoluntario(nome, email) {
+export function salvarVoluntario(voluntario) {
   const voluntarios = listarVoluntarios();
-  voluntarios.push({ nome, email });
+  voluntarios.push(voluntario);
   localStorage.setItem('voluntarios', JSON.stringify(voluntarios));
 }
