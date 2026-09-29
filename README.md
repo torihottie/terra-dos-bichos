@@ -28,7 +28,20 @@ Instale as dependências com npm install. Para rodar em ambiente de desenvolvime
 
 ## Deploy
 
-Projeto publicado via Vercel.
+Projeto publicado via Vercel
+
+## Acessibilidade
+
+O projeto segue diretrizes da WCAG 2.1 para garantir uma experiência inclusiva:
+
+- Uso de atributos ARIA (`aria-label`, `aria-hidden`) em elementos interativos, como o menu hambúrguer e o modal informativo.
+- Navegação testada via teclado e leitores de tela.
+- Contraste de cores ajustado para atender à relação mínima de 4.5:1 entre texto e fundo.
+- Estrutura semântica com uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` e `<footer>`.
+
+## Contribuição
+
+Este projeto segue um fluxo de trabalho baseado em branches (feature, hotfix, develop) com revisão via pull requests antes da integração à branch principal.
 
 ## Autor
 
