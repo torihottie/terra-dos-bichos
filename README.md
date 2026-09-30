@@ -22,36 +22,32 @@ Na raiz ficam os arquivos-fonte HTML (index.html, cadastro.html, projetos.html),
 
 Navegação em SPA via roteamento por hash, sem recarregar a página. Menu responsivo com dropdown no desktop e hambúrguer no mobile. Formulário de cadastro de voluntários com validação em tempo real. Persistência dos dados no localStorage. Feedback visual de sucesso via modal com SweetAlert2. Design responsivo com 5 breakpoints, usando CSS Grid e Flexbox.
 
-## Como rodar o projeto
-
-Instale as dependências com npm install. Para rodar em ambiente de desenvolvimento, use npm run dev. Para gerar a build de produção, use npm run build.
-
-## Deploy
-
-Projeto publicado via Vercel
-
-## Acessibilidade
-
-O projeto segue diretrizes da WCAG 2.1 para garantir uma experiência inclusiva:
-
-- Uso de atributos ARIA (`aria-label`, `aria-hidden`) em elementos interativos, como o menu hambúrguer e o modal informativo.
-- Navegação testada via teclado e leitores de tela.
-- Contraste de cores ajustado para atender à relação mínima de 4.5:1 entre texto e fundo.
-- Estrutura semântica com uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` e `<footer>`.
-
 ## Como executar o projeto
 
 Pré-requisito: Node.js.
 
 1. Clonar o repositório
 2. Executar npm install
-3. Executar npm run dev
+3. Executar npm run dev e abrir o endereço mostrado no terminal
 
 Para gerar a versão final, use npm run build.
 
+## Deploy
+
+Projeto publicado via Vercel.
+
+## Acessibilidade
+
+O projeto segue diretrizes da WCAG 2.1 para garantir uma experiência inclusiva:
+
+- Uso de atributos ARIA (role, aria-label, aria-hidden) no modal informativo e nos controles interativos.
+- Navegação testada via teclado e leitores de tela.
+- Contraste de cores ajustado para atender à relação mínima de 4.5:1 entre texto e fundo.
+- Estrutura semântica com uso de <header>, <nav>, <main>, <section>, <article> e <footer>.
+
 ## Contribuição
 
-Fluxo de trabalho baseado em branches (feature, hotfix e develop). As alterações são integradas à branch principal por pull request.
+Fluxo de trabalho baseado em branches (feature, hotfix, develop e docs). As alterações são integradas à branch principal, e as mudanças na documentação passaram por pull request.
 
 ## Autor
 
