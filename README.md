@@ -39,9 +39,19 @@ O projeto segue diretrizes da WCAG 2.1 para garantir uma experiência inclusiva:
 - Contraste de cores ajustado para atender à relação mínima de 4.5:1 entre texto e fundo.
 - Estrutura semântica com uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` e `<footer>`.
 
+## Como executar o projeto
+
+Pré-requisito: Node.js.
+
+1. Clonar o repositório
+2. Executar npm install
+3. Executar npm run dev
+
+Para gerar a versão final, use npm run build.
+
 ## Contribuição
 
-Este projeto segue um fluxo de trabalho baseado em branches (feature, hotfix, develop) com revisão via pull requests antes da integração à branch principal.
+Fluxo de trabalho baseado em branches (feature, hotfix e develop). As alterações são integradas à branch principal por pull request.
 
 ## Autor
 
